@@ -11,7 +11,7 @@ function setup() {
     } else {
       fill(255);
     }
-    arc(250, 155, 450, 450, 0, HALF_PI);
+    arc(250, 155, 450, 450, 0, HALF_PI);// Good practice of using arcs in this whole example. They can be confusing to understand. 
     arc(250, 155, 460, 460, HALF_PI, PI);
     arc(250, 155, 470, 470, PI, PI + QUARTER_PI);
     arc(900, 250, 450, 470, 0, HALF_PI);
