@@ -5,9 +5,9 @@ function setup() {
   
   var value = 0;
   function draw() {
-    fill(value);
+    fill(value);//Nice use of functions to change color.
     rect(25, 25, 50, 50);
-    rect(125, 125, 150, 150);
+    rect(125, 125, 150, 150);// I wonder if you could make this code smaller? My create one rect() but give a different values
     rect(325, 325, 350, 350);
     rect(725, 125, 150, 150);
     rect(925, 25, 50, 50);
